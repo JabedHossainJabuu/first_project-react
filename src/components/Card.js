@@ -17,4 +17,4 @@ export default function Card(props){
   <br /> <br />
   <p className="cardFooter">{"Date: " + dateName + "/"+ monthName + "/"+ currentYear}</p>
   </div>
-}
+};

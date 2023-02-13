@@ -1,7 +1,8 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
 }
+
 .headingStyle{
     background-color: purple;
     color: white;
@@ -9,7 +10,7 @@
     padding: 15px;
   }
 
-  .largeText{
+.largeText{
     font-size: 3rem;
   }
 
