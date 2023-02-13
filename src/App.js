@@ -5,6 +5,7 @@ import Card2 from "./components/Card2";
 import ReactBootstrap from "./components/React_Bootstrap/ReactBootstrap";
 
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
+import Signup from "./components/Signup";
 
 //<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
 
@@ -25,5 +26,9 @@ export default function App(){
         </span>
 
         <ReactBootstrap></ReactBootstrap>
+
+        <br /><br />
+
+        <Signup/>
     </div>
 };
