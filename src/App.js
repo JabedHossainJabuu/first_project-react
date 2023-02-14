@@ -6,14 +6,15 @@ import ReactBootstrap from "./components/React_Bootstrap/ReactBootstrap";
 
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
 import Signup from "./components/Signup";
-
-//<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-
+import Home from "./components/State_Lifting/Home";
 
 export default function App(){
     return <div>
         <h1 className="headingStyle">Todo App</h1>
         {Data.map((item, index) => <Card key = {index} titleText1={[item.title]} descText1={[item.desc]}/>)}
+        <br /><br />
+
+        <Home/> <br /><br />
 
         <Card2 name="Class Component"></Card2><br />
 
